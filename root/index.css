@@ -52,8 +52,8 @@ form input.epual{
 
 @media only screen and (max-width:673px){
   .container{
-    width: 50%;
-    height: 50vh; 
+    width: 90%;
+    height: 90vh; 
 } 
 
 .calcalator{
@@ -73,24 +73,24 @@ form input.epual{
   font-size: 7px;
   color: forestgreen;
   cursor: pointer;
-  margin: 8px;
+  margin: 9px;
 }
 
 form .display{
   display: flex;
   justify-content: flex-end;
-  margin: 9px 0;
+  margin: 10px 0;
   }
 
   form .display input{
     text-align: right; 
     flex: 1;
-    font-size: 25px;
+    font-size: 27px;
     box-shadow: none;
   }
 
   form input.epual{
-    width: 90px;
+    width: 100px;
   }
 
 }
