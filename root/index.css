@@ -50,10 +50,10 @@ form input.epual{
   width: 145px;
 }
 
-@media only screen and (max-width:353px){
+@media only screen and (max-width:673px){
   .container{
-    width: 70%;
-    height: 70vh; 
+    width: 50%;
+    height: 50vh; 
 } 
 
 .calcalator{
@@ -65,32 +65,32 @@ form input.epual{
 .calcalator form input{
   border: 0;
   outline: 0;
-  width: 40px;
-  height: 40px;
-  border-radius: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 7px;
   box-shadow: -8px -8px 15px  rgba(255, 255, 255, 0.1),5px 5px 15px  rgba(0, 0, 0, 0.2);
   background: transparent;
-  font-size: 10px;
+  font-size: 7px;
   color: forestgreen;
   cursor: pointer;
-  margin: 7px;
+  margin: 8px;
 }
 
 form .display{
   display: flex;
   justify-content: flex-end;
-  margin: 10px 0;
+  margin: 9px 0;
   }
 
   form .display input{
     text-align: right; 
     flex: 1;
-    font-size: 35px;
+    font-size: 25px;
     box-shadow: none;
   }
 
   form input.epual{
-    width: 105px;
+    width: 90px;
   }
 
 }
