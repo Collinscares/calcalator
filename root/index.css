@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+  width: 100%;
+  height: 100vh; 
+  background-color: lightblue ;
+  display: flex;
+  align-items: center;
+  justify-content: center ; 
+}
+
+.calcalator{
+  background:black;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.calcalator form input{
+  border: 0;
+  outline: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  box-shadow: -8px -8px 15px  rgba(255, 255, 255, 0.1),5px 5px 15px  rgba(0, 0, 0, 0.2);
+  background: transparent;
+  font-size: 20px;
+  color: forestgreen;
+  cursor: pointer;
+  margin: 10px;
+}
+
+ form .display{
+display: flex;
+justify-content: flex-end;
+margin: 20px 0;
+}
+
+form .display input{
+  text-align: right; 
+  flex: 1;
+  font-size: 45px;
+  box-shadow: none;
+}
+
+form input.epual{
+  width: 145px;
+}
+
+@media only screen and (max-width:353px){
+  .container{
+    width: 70%;
+    height: 70vh; 
+} 
+
+.calcalator{
+  background:black;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.calcalator form input{
+  border: 0;
+  outline: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  box-shadow: -8px -8px 15px  rgba(255, 255, 255, 0.1),5px 5px 15px  rgba(0, 0, 0, 0.2);
+  background: transparent;
+  font-size: 10px;
+  color: forestgreen;
+  cursor: pointer;
+  margin: 7px;
+}
+
+form .display{
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px 0;
+  }
+
+  form .display input{
+    text-align: right; 
+    flex: 1;
+    font-size: 35px;
+    box-shadow: none;
+  }
+
+  form input.epual{
+    width: 105px;
+  }
+
+}
+  
+
